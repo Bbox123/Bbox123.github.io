@@ -292,3 +292,15 @@ footer {
     width: 80%;
     height: 900px;
 }
+
+.game-container {
+    display: flex;
+    justify-content: center;
+}
+
+.game-container .game {
+    border: 0px #000000 none;
+    justify-content: center;
+    width: 80%;
+    height: 800px;
+}
