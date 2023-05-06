@@ -294,9 +294,11 @@ footer {
 }
 
 .game-container {
-    display: flex;
-    justify-content: center;
+    display:flex;
+    justify-content:center;
 }
+
+
 
 .game-container .game {
     border: 0px #000000 none;
