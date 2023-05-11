@@ -9,18 +9,30 @@
     <nav>
         <ul class="nav-list">
             <li class="nav-item">BRANDON FOX</li>
-            <li class="nav-item"><a href="index.html">HOME</a></li>
-            <li class="nav-item"><a href="Projects.html">PROJECTS</a></li>
-            <li class="nav-item"><a href="Resume.html">RESUME</a></li>
-            <li class="nav-item"><a href="CoolStuff.html">COOL STUFF</a></li>
+            <li class="nav-item"><a href="index.html" target="_blank">HOME</a></li>
+            <li class="nav-item"><a href="Projects.html" target="_blank">PROJECTS</a></li>
+            <li class="nav-item"><a href="Resume.html" target="_blank">RESUME</a></li>
+            <li class="nav-item"><a href="CoolStuff.html" target="_blank">COOL STUFF</a></li>
         </ul>
     </nav>
-    <section class="game-container">
-        <iframe class="game" mozallowfullscreen="true" allow="autoplay; fullscreen"
-                src="/ChessGame/Chess.html" scrolling="no" msallowfullscreen="true" allowfullscreen="true" webkitallowfullscreen="true" 
-                allowtransparency="true" frameborder="0" height="540" width="960">
-                </iframe>
-    </section>
-    <footer></footer>
+    <div class="game-container">
+        <div id="over-text">
+            This is a chess game I've been working on. <br />
+            At the moment you can only play locally with 2 players alternating, <br />
+            but I plan on adding AI and an online mode. Enjoy!'
+        </div>
+        <iframe class="game" allow="autoplay; fullscreen"
+                src="/ChessGame/Chess.html" height="540" width="960">
+        </iframe>
+    </div>
+    <footer>
+        <div class="basic-footer">
+            <ul class="nav-list">
+                <li class="nav-item">Contact me through email and LinkedIn!</li>
+                <li class="nav-item">brandofo@umich.edu</li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/brandon-fox-541727166/" target="_blank">my LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

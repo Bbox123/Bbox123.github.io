@@ -207,7 +207,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 35%;
+    width: 40%;
     height: 100%;
     transition: .5s ease;
 }
@@ -294,15 +294,26 @@ footer {
 }
 
 .game-container {
-    display:flex;
-    justify-content:center;
+   display: block;
+   justify-content: center;
 }
-
-
 
 .game-container .game {
     border: 0px #000000 none;
-    justify-content: center;
+    position: relative;
+    left: 10%;
     width: 80%;
     height: 800px;
+}
+
+.game-container #over-text {
+    position: relative;
+    transition: 0.75s;
+    top: 50px;
+    outline: 0px;
+    border: 0px;
+    border-radius: 1px;
+    font-size: 25px;
+    text-align:center;
+    color: black;
 }
